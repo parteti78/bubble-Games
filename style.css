@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+    background-color: #a79733;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#maincontaner{
+    height: 80%;
+    width: 80%;
+    /* background-color: #3c5e48; */
+    border-radius: 4px;
+    overflow-y: hidden;
+}
+
+#nabar{
+
+    background-color: lemonchiffon;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 23%;
+}
+
+#elem{
+
+    width: 100px;
+    height: 50px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#elem > #hit{
+
+   background-color: burlywood;
+   width: 40px;
+   height: 40px;
+  padding: 8px 12px 10px 13px;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+#elem > #score{
+
+    background-color: burlywood;
+    width: 45px;
+    height: 40px;
+   padding: 8px 12px 10px 13px;
+   border-radius: 3px;
+   font-size: 1.3rem;
+   font-weight: 900;
+ }
+
+ #elem > #time{
+
+    background-color: burlywood;
+    width: 45px;
+    height: 40px;
+   padding: 8px 12px 10px 13px;
+   border-radius: 3px;
+   font-size: 1.3rem;
+   font-weight: 900;
+ }
+
+ #bablecon{
+
+    background-color: #676b31;
+    height: 90%;
+    width: 100%;
+    padding: 12px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+ }
+
+ #bables{
+    background-color: white;
+    border-radius: 50%;
+     width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+    cursor: pointer;
+    
+
+ }
+ #bables:hover{
+
+    background-color: rgb(203, 198, 198);
+
+ }
+
+
+ #scorebord{
+
+    background-color: yellow;
+ }
+
+ button{
+
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    padding: 1%;
+    border-radius: 3px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    width: 15vw;
+    height: 4vw;
+
+ }
+
+ button > h1{
+
+   font-weight: 100;
+   font-size: 2vw;
+ }
+
+
+ @media only screen and (max-width:739px) {
+
+   #nabar{
+
+      flex-direction: column;
+   }
+   
+   
+ }
