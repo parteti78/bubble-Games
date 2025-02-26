@@ -88,6 +88,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: scroll;
    
     
  }
@@ -135,20 +136,55 @@ html,body{
     height: 5vw;
 
  }
+ #scorebord{
+   font-size: 2vw;
+   padding: 1vw;
+   margin-left: 16px;
+   margin-top: 20px;
+ }
 
  button > h1{
 
    font-weight: 100;
-   font-size: 2vw;
+   font-size: 3vw;
  }
 
 
- @media only screen and (max-width:739px) {
+ @media only screen and (max-width:400px) {
 
    #nabar{
 
       flex-direction: column;
    }
+   button {
+
+      height: 10vw ;
+      width: 30vw;
+      margin-left: 5px;
+   margin-top: 5px;
+    }
+
+    #elem > #hit{
+
+      margin-left: 28px;
+    }
+
+    #scorebord{
+      font-size: 3vw;
+      padding: 1vw;
+      margin-top:-150px ;
+      
+    }
    
-   
+ }
+
+ @media only screen and (min-width:400px) and (max-width:959px){
+
+   button {
+
+      height: 5vw ;
+      width: 20vw;
+     
+    }
+
  }
